@@ -1,5 +1,7 @@
 #%%
 
+# Parte 1
+
 count_unsafe = 0
 total_lines = 0
 
@@ -23,7 +25,7 @@ with open('input.txt', 'r', encoding="utf-8") as f:
 print(total_lines - count_unsafe)
 # %%
 
-# Parte dos
+# Parte 2
 count_safe = 0
 
 def is_safe(line):
