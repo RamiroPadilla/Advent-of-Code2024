@@ -26,6 +26,7 @@ print(total_lines - count_unsafe)
 # %%
 
 # Parte 2
+
 count_safe = 0
 
 def is_safe(line):
